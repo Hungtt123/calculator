@@ -1,0 +1,56 @@
+.container{
+    width:  250px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(24, 235, 9);
+    border: 11px solid black;
+    height: 400px;
+    
+}
+.result{
+    font-size: 30px;
+    
+    
+    text-align: right;
+}
+.dongdau,
+.donghai,
+.dongnba,
+.dongbon
+{
+    
+    font-size: 40px;
+    margin-top: 70px;
+    
+}
+.button{
+    margin-bottom: 500px; 
+   padding: 15px;
+   margin-right:150px;
+   font-weight: bold;
+   font-size: 35px;
+   border: none;
+   border-radius: 3px;
+   background-color: #0bef5b;
+   float: left;
+   width: 23%;
+   margin: 2px;
+   /*border: 1px solid #000;*/
+  }
+  .nutbam{
+    
+    background-color: rgb(9, 9, 9);
+    height: 300px;
+    
+  }
+  .h1{
+    text-align: center;
+    font-size:50px;
+    margin-left: 584px;
+    margin-right: 584px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    border: 10px solid black;
+    padding-top: 10px;
+    background-color: rgba(87, 241, 21, 0.8); 
+}

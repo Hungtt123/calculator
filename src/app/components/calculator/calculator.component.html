@@ -1,0 +1,33 @@
+<h1 class="h1">Calculator</h1>
+<div class="container">
+    <div class="result">{{inputData}}
+        <!-- {{ this.calcService.currentOperator }}
+      {{this.CaculatorService.currentInput != 0? this.CaculatorService.currentInput: ""}} -->
+    </div>
+        <div class="nutbam">
+    <div class="dongdau">
+        <button name="" value="7" class="button" (click)="onClick('7')">7</button>
+        <button name="" value="8" class="button" (click)="onClick('8')">8</button>
+        <button name="" value="9" class="button" (click)="onClick('9')">9</button>
+        <button name="" value="/" class="button" (click)="onClick('/')">/</button>
+    </div>
+    <div class="donghai">
+        <button name="" value="4" class="button" (click)="onClick('4')">4</button>
+        <button name="" value="5" class="button" (click)="onClick('5')">5</button>
+        <button name="" value="6" class="button" (click)="onClick('6')">6</button>
+        <button name="" value="*" class="button" (click)="onClick('*')">*</button>
+    </div>
+    <div class="dongba">
+        <button name="" value="1" class="button" (click)="onClick('1')">1</button>
+        <button name="" value="2" class="button" (click)="onClick('2')">2</button>
+        <button name="" value="3" class="button" (click)="onClick('3')">3</button>
+        <button name="" value="-" class="button" (click)="onClick('-')">-</button>
+    </div>
+    <div class="dongbon">
+        <button name="" value="0" class="button" (click)="onClick('0')">0</button>
+        <button name="" value="Del" class="button" (click)="reset()"> C </button>
+        <button name="" value="=" class="button" (click)="calculate()">=</button>
+        <button name="" value="-" class="button" (click)="onClick('+')">+</button>
+    </div>
+</div>
+</div>
